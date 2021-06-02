@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<button onclick="tinh_diem_trung_binh()">Tinh trung binh</button>
+<button onclick="xac_dinh_chan_le()">Chẵn lẻ</button>
+<button onclick="tim_max_trong_3_so()">Tìm max trong 3 số</button>
+<button onclick="tim_max_trong_3_so_tu()">Tìm max trong 3 số của Tú</button>
+
+<body>
+    <script>
+        function tinh_diem_trung_binh() {
+            // Nhập
+            let diemToan = prompt('Nhập điểm Toán:');
+            let diemLy = prompt('Nhập điểm Lý:');
+            let diemHoa = prompt('Nhập điểm Hóa:');
+
+            //Tính toán
+            let tong = Number(diemToan) + Number(diemLy) + Number(diemHoa);
+            let trungBinh = tong / 3;
+
+            //Xuất
+            alert('Điểm trung bình: ' + trungBinh);
+            // document.write
+        }
+
+        function xac_dinh_chan_le() {
+            let a = prompt('Nhập a');
+            if (Number(a) % 2 == 0) {
+                alert('a là số chẵn');
+            } else {
+                alert('a là số lẻ');
+            }
+        }
+
+        function tim_max_trong_3_so() {
+            //Nhập
+            let a = Number(prompt('Nhập a'));
+            let b = prompt('Nhập b');
+            let c = prompt('Nhập c');
+
+            // 9 < 10
+            // "9" > "10"
+
+            // a = Number(a);
+            b = Number(b);
+            c = Number(c);
+
+            //So sánh
+            if (a > b) {
+                if (a > c) {
+                    alert(a + ' là số lớn nhất');
+                } else {
+                    alert(c + ' là số lớn nhất');
+                }
+            } else {
+                if (b > c) {
+                    alert(b + ' là số lớn nhất');
+                } else {
+                    alert(c + ' là số lớn nhất');
+                }
+            }
+        }
+
+        function tim_max_trong_3_so_tu() {
+            //Nhập
+            let a = Number(prompt('Nhập a'));
+            let b = prompt('Nhập b');
+            let c = prompt('Nhập c');
+
+            // 9 < 10
+            // "9" > "10"
+
+            // a = Number(a);
+            b = Number(b);
+            c = Number(c);
+
+            let max;
+
+            //So sánh && và
+            if (a >= b && a >= c) {
+                // alert(a + 'là số lớn nhất');
+                max = a;
+            }
+
+            if (b >= a && b >= c) {
+                // alert(b + 'là số lớn nhất');
+                max = b;
+            }
+
+            if (c >= a && c >= b) {
+                // alert(c + 'là số lớn nhất');
+                max = c;
+            }
+
+            // Hiển thị kết quả
+            alert(max + 'là số lớn nhất');
+        }
+    </script>
+</body>
+
+</html>

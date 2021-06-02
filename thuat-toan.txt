@@ -1,0 +1,59 @@
+Bài toán
+Tính điểm trung bình của 3 môn Toán, Lý, Hóa.
+
+B1 - Nhập điểm 3 môn Toán Lý Hóa.
+B2 - Cộng tổng 3 môn.
+B3 - Tính điểm trung bình 3 môn bằng cách lấy tổng chia cho 3.
+B4 - Đưa ra đáp án - kết luận
+B5 - Kết thúc chương trình.
+
+//Từ B1 -> B5 Thuật toán.
+Thuật toán là tập hợp hữu hạn các bước để giải quyết 1 vấn đề (bài toán).
+
+Lập trình là viết các câu lệnh để chỉ dẫn để ra lệnh cho máy tính giải quyết một vấn đề.
+
+Để trở thành lập trình viên cần rèn luyện 2 kỹ năng
+    - Tư duy giải quyết vấn đề - Thuật toán //Nền tảng
+    - Chuyển hóa thành mã code thông qua ngôn ngữ lập trình
+        - Python
+        - Java
+        - C#
+        - JavaScript
+        - C++
+        - Pascal
+        - ....
+Lưu đồ - Flowchart
+Mã giả - Pseudo-code
+
+Bài toán 2:
+Cho 3 số a,b,c tìm số lớn nhất trong 3 số. 5 phút
+B1 - Nhập 3 số a,b,c
+B2 - So sánh a và b
+    B3 - Nếu a > b
+        B4 - Nếu a > c : Hiển thị a là số lớn nhất
+        B5 - Nếu a <= c: Hiển thị c là số lớn nhất
+    B6 - Nếu a <= b
+        B7 - Nếu b > c: Hiển thị b là số lớn nhất
+        B8 - Nếu b <= c: Hiển thị c là số lớn nhất
+
+Bài toán 3:
+Nhập vào 1 số, hiển thị ra đó là số chẵn hoặc số lẻ
+
+B1: Nhập số a
+B2: Kiểm tra xem có chia hết cho 2 hay không
+    B3: Nếu chia hết: Hiển thị là số chẵn
+    B4: Nếu không chia hết: Hiển thị là số lẻ
+B5: Kết thúc
+
+// 6/3 = 2 dư 0
+// 6%3 = 0;
+// 10 % 3 = 1;
+
+Có rất nhiều cách để giải 1 bài toán: Mọi con đường đều dẫn đến thành rome
+"" , '': Thể hiện đoạn văn bản /text/ string
+(): Thực thi của hàm, dấu của biểu thức toán +,-,x, /...., biểu thức điều kiện if( >,<,==,>=,<=)
+{}: Khối lệnh: khối lệnh trong function hoặc if
+<>: thẻ html
+draw.io: web để tạo Flowchart
+a = 5 // gán cho a giá trị 5
+a == 5 // trả về đúng/sai (true/false)
